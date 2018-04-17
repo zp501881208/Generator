@@ -1,0 +1,12 @@
+com\magict\magic\spring\mapper\SpringBootBindUtil$SpringBoot1Bind.class
+com\magict\magic\spring\mapper\ClassPathMapperScanner$3.class
+com\magict\magic\spring\mapper\SpringBootBindUtil$SpringBoot2Bind.class
+com\magict\magic\spring\mapper\ClassPathMapperScanner$2.class
+com\magict\magic\mapper\autoconfigure\MapperProperties.class
+com\magict\magic\spring\annotation\MapperScannerRegistrar.class
+com\magict\magic\spring\mapper\ClassPathMapperScanner$1.class
+com\magict\magic\spring\mapper\MapperFactoryBean.class
+com\magict\magic\spring\annotation\MapperScan.class
+com\magict\magic\spring\mapper\ClassPathMapperScanner.class
+com\magict\magic\spring\mapper\SpringBootBindUtil.class
+com\magict\magic\spring\mapper\SpringBootBindUtil$IBind.class
