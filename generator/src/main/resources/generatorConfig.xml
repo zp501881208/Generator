@@ -31,6 +31,7 @@
             <property name="targetProject" value="src/test/java"/>
             <property name="targetPackage" value="mapper"/>
             <property name="mapperPackage" value="com.magict.magic.mapper"/>
+            <property name="entityPackage" value="com.magict.magic.entity"/>
             <property name="templatePath" value="generator/mapperXml.ftl"/>
             <property name="mapperSuffix" value="Mapper"/>
             <property name="fileName" value="${tableClass.shortClassName}${mapperSuffix}.xml"/>

@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * mapper生成器
  * @author zp
- * @date 2018/4/13 11:49
+ * @date 2018-4-17 19:11:04
  */
 public class MapperGenerator {
     public static void main(String[] args) throws Exception {
