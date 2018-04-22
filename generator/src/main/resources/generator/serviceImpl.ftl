@@ -18,4 +18,12 @@ import org.springframework.stereotype.Service;
 public class ${tableClass.shortClassName}${mapperSuffix} extends ${baseServiceImpl!"BaseServiceImpl"}<${tableClass.shortClassName}> implements ${tableClass.shortClassName}Service{
     @Autowired
     private ${tableClass.shortClassName}Mapper ${tableClass.variableName}Mapper;
+
+    @Override
+    public ${tableClass.shortClassName} selectByPrimaryKey(Integer id){
+        return ${tableClass.variableName}Mapper.selectByPrimaryKey(id);
+    }
+
+
+
 }
