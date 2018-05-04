@@ -29,7 +29,7 @@ import tk.mybatis.mapper.entity.Config;
 
 
 /**
- * 这个类存在的主要目的是方便 IDE 自动提示 mapper. 开头的配置
+ * 这个类存在的主要目的是方便 IDE 自动提示 mapper. 开头的配置.
  *
  * @author liuzh
  * @since 2017/1/2.
