@@ -19,11 +19,5 @@ public class ${tableClass.shortClassName}${mapperSuffix} extends ${baseServiceIm
     @Autowired
     private ${tableClass.shortClassName}Mapper ${tableClass.variableName}Mapper;
 
-    @Override
-    public ${tableClass.shortClassName} selectByPrimaryKey(Integer id){
-        return ${tableClass.variableName}Mapper.selectByPrimaryKey(id);
-    }
-
-
 
 }

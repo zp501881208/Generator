@@ -11,6 +11,6 @@ import ${tableClass.fullClassName};
 * @author zp
 * @date ${dateTime?string["yyyy-MM-dd HH:mm:ss"]}
 */
-public interface ${tableClass.shortClassName}${mapperSuffix} extends ${baseService!"BaseService"} {
+public interface ${tableClass.shortClassName}${mapperSuffix} extends ${baseService!"BaseService"}<${tableClass.shortClassName}> {
     ${tableClass.shortClassName} selectByPrimaryKey(Integer id);
 }
