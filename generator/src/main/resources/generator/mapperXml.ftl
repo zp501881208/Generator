@@ -8,4 +8,18 @@
         </#list>
         </#if>
     </resultMap>
+
+    <!-- 自行选择是否增加 -->
+    <sql id="Base_Column_List" >
+    <#if tableClass.allFields??>
+        <#list tableClass.allFields as field>
+        <#if field_index==0>
+        ${field.columnName}
+        </#if>
+        <#if field_index!=0>
+        ,${field.columnName}
+        </#if>
+        </#list>
+    </#if>
+    </sql>
 </mapper>
